@@ -1,10 +1,10 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
-2 functions.  The first function creates a special matrix object that supports caching its inverse.  The second function produces the inverse to the matrix object, using the object's cache if set, and otherwise computing the result.
+## 2 functions.  The first function creates a special matrix object that supports caching its inverse.  The second function produces the inverse to the matrix object, using the object's cache if set, and otherwise computing the result.
 
 ## Write a short comment describing this function
-Function returns a matrix object that supports caching its inverse.
+## Function returns a matrix object that supports caching its inverse.
 
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
@@ -21,7 +21,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 ## Write a short comment describing this function
-Function retrieves the inverse of matrix X, using the cache, and otherwise performs the solve method and then caches the result.
+## Function retrieves the inverse of matrix X, using the cache, and otherwise performs the solve method and then caches the result.
 
 ## Return a matrix that is the inverse of 'x'
 cacheSolve <- function(x, ...) {
